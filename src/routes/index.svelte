@@ -22,7 +22,9 @@
 <ThemeContext>
 	<main>
 		<h1>TEGAN AMIANI WEBSITE</h1>
-		<List links={links} />
+		<div class='links'>
+			<List links={links} />
+		</div>
 		<LinkForm on:submit={onSubmit} />
 	</main>
 </ThemeContext>
@@ -31,8 +33,15 @@
 	main {
 		display: flex;
 		flex-direction: column;
-		align-items: center;
 		height: 100vh;
+		width: 75%;
 		font-family: var(--font-primary);
+		padding: 1rem;
+		margin: 0 auto;
+	}
+
+	.links {
+		overflow-y: scroll;
+		flex-grow: 3;
 	}
 </style>
