@@ -1,12 +1,12 @@
 <script lang='ts'>
 	export let text: string
-	export let href: string
+	export let url: string
 </script>
 
 <li class='list-item'>
 	<div class='content'>
-		<a href={href}>{text}</a>
-		<a href={href}>{href}</a>
+		<a href={url}>{text}</a>
+		<a href={url}>{url}</a>
 	</div>
 </li>
 

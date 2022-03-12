@@ -2,16 +2,7 @@
 	import List from '$lib/components/List'
 	import type Link from '$lib/types/Link';
 
-	let links: Link[] = [
-		{
-			text: 'Cool Link 1',
-			href: 'https://www.youtube.com'
-		},
-		{
-			text: 'Cool Link 2',
-			href: 'https://www.firebase.com'
-		}
-	]
+	export let links: Link[];
 </script>
 
 <h1>TEGAN AMIANI WEBSITE</h1>

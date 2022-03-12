@@ -1,4 +1,4 @@
 export default interface Link {
-	text: string;
-	href: string;
+	title: string;
+	url: string;
 }

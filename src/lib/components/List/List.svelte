@@ -5,19 +5,16 @@
 	export let links: Link[]
 </script>
 
-<ul class='list'>
+<ol class='list'>
 	{#each links as link}
-		<Item text={link.text} href={link.href} />
+		<Item text={link.title} url={link.url} />
 	{/each}
-</ul>
+</ol>
 
 <style>
 	.list {
 		display: flex;
 		gap: 1rem;
 		flex-direction: column;
-		list-style: none;
-		padding: 0;
-		margin: 0;
 	}
 </style>
