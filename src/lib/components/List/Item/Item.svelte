@@ -5,8 +5,8 @@
 
 <li class='list-item'>
 	<div class='content'>
-		<a href={url}>{text}</a>
-		<a href={url}>{url}</a>
+		<a class="text" href={url}>{text}</a>
+		<a class="url" href={url}>{url}</a>
 	</div>
 </li>
 
@@ -14,5 +14,13 @@
 	.content {
 		display: flex;
 		flex-direction: column;
+	}
+
+	.text, .url {
+		text-decoration: none;
+	}
+
+	.url {
+		font-size: 0.75rem;
 	}
 </style>

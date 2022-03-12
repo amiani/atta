@@ -1,5 +1,5 @@
 import db from '$lib/database'
-import getLinks from '$lib/database/Links'
+import { getLinks } from '$lib/database/link'
  
 export async function get() {
 	try {
