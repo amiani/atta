@@ -10,7 +10,10 @@ const config = {
 	preprocess: preprocess(),
 
 	kit: {
-		adapter: adapter(),
+		adapter: adapter({
+			pages: "docs",
+			assets: "docs"
+		}),
 		prerender: {
 			default: true,
 			crawl: false
@@ -18,7 +21,6 @@ const config = {
 		paths: {
 			base: dev ? '' : '/atta',
 		},
-		appDir: 'app',
 	}
 }
 
