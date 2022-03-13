@@ -6,7 +6,7 @@
 		<input type='text' name='title' placeholder='Sweet Webpage' />
 
 		<label for="url">URL</label>
-		<input type='text' name='url' placeholder='www.web.site/so_sweet' />
+		<input type='text' name='url' placeholder='https://www.web.site/so_sweet' />
 
 		<input class='submit' type='submit' value='Add Link' />
 	</fieldset>
