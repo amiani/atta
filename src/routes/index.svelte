@@ -14,6 +14,7 @@
 			title: data.get('title').valueOf() as string,
 			url: data.get('url').valueOf() as string
 		}
+		links.unshift(link)
 		await insertLink(sb, link)
 		links = await getLinks(sb)
 	}
