@@ -34,10 +34,19 @@
 		display: flex;
 		flex-direction: column;
 		height: 100vh;
-		width: 75%;
 		font-family: var(--font-primary);
 		padding: 1rem;
-		margin: 0 auto;
+	}
+
+	@media (min-width: 600px) {
+		main {
+			margin-left: 5%;
+		}
+	}
+	@media (min-width: 900px) {
+		main {
+			margin-left: 15%;
+		}
 	}
 
 	.links {
