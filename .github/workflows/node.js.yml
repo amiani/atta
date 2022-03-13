@@ -9,6 +9,9 @@ on:
   pull_request:
     branches: [ master ]
 
+env:
+  NODE_ENV: production
+
 jobs:
   build:
 
@@ -30,5 +33,5 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
         cache: 'pnpm'
-    - run: pnpm ci
-    - run: pnpm run build --if-present
+    - run: pnpm install
+    - run: pnpm build
