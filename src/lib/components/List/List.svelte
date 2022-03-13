@@ -17,4 +17,10 @@
 		gap: 1rem;
 		flex-direction: column;
 	}
+
+	@media (max-width: 599px) {
+		.list {
+			padding: 0;
+		}
+	}
 </style>
