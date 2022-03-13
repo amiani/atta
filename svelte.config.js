@@ -11,8 +11,8 @@ const config = {
 
 	kit: {
 		adapter: adapter({
-			pages: "docs",
-			assets: "docs"
+			pages: "public",
+			assets: "public"
 		}),
 		prerender: {
 			default: true,
