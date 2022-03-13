@@ -49,6 +49,11 @@
 			margin-left: 15%;
 		}
 	}
+	
+	h1 {
+		font-size: 1.5rem;
+		white-space: nowrap;
+	}
 
 	.links {
 		overflow-y: scroll;
