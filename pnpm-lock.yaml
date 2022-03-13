@@ -23,6 +23,7 @@ dependencies:
   '@sveltejs/kit': 1.0.0-next.295_svelte@3.46.4
   svelte: 3.46.4
   svelte-preprocess: 4.10.4_svelte@3.46.4+typescript@4.6.2
+  typescript: 4.6.2
 
 devDependencies:
   '@typescript-eslint/eslint-plugin': 5.14.0_e3f5f4efe2bd492e36eb6c1c619dfc98
@@ -34,7 +35,6 @@ devDependencies:
   prettier-plugin-svelte: 2.6.0_prettier@2.5.1+svelte@3.46.4
   svelte-check: 2.4.5_svelte@3.46.4
   tslib: 2.3.1
-  typescript: 4.6.2
 
 packages:
 
@@ -1808,7 +1808,6 @@ packages:
     resolution: {integrity: sha512-HM/hFigTBHZhLXshn9sN37H085+hQGeJHJ/X7LpBWLID/fbc2acUMfU+lGD98X81sKP+pFa9f0DZmCwB9GnbAg==}
     engines: {node: '>=4.2.0'}
     hasBin: true
-    dev: true
 
   /uri-js/4.4.1:
     resolution: {integrity: sha512-7rKUyy33Q1yc98pQ1DAmLtwX109F7TIfWlW1Ydo8Wl1ii1SeHieeh0HHfPeL2fMXK6z0s8ecKs9frCuLJvndBg==}
